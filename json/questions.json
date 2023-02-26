@@ -1,4 +1,4 @@
-""" What is your medium of usage?"""
+""" What is your medium of usage? """
 
 {
     "usage": {
@@ -83,11 +83,11 @@
 
 
 
-  """ How many matching swipes do you make?"""
+  """ Select a number of matching swipes you expect to make. """
 
   """ sliding range from 0 - 2000, default set to 400"""
 
 
 
-  """ What Percentage of matches do you expect?"""
+  """ Select a match percentage. """
   """ sliding range from 0-1, default set to 0.25"""
