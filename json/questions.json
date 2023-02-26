@@ -1,0 +1,93 @@
+""" What is your medium of usage?"""
+
+{
+    "usage": {
+      "0": "Gender",
+      "1": "Mobile",
+      "2": "University",
+      "3": "Web"
+    },
+    "values": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3
+    }
+  }
+
+
+
+
+""" What University do you attend?"""
+
+{
+    "university": {
+      "0": "Meridian, Idaho",
+      "1": "Westport, CT",
+      "2": "University of Pennsylvania",
+      "3": "University of Mississippi",
+      "4": "University of Washington",
+      "5": "University of Southern California",
+      "6": "Washington State University",
+      "7": "University of Tampa",
+      "8": "Wesleyan University",
+      "9": "University of Wisconsin, Eau Claire",
+      "10": "University of California, Santa Cruz",
+      "11": "University of California, Berkeley",
+      "12": "Williams College",
+      "13": "Vassar College",
+      "14": "Vanderbilt University",
+      "15": "University of Buffalo",
+      "16": "University of Oregon",
+      "17": "Union College",
+      "18": "Whatsgoodly University",
+      "19": "University of Delaware"
+    },
+    "values": {
+      "0": 46.0,
+      "1": 144.0,
+      "2": 123.0,
+      "3": 117.0,
+      "4": 133.0,
+      "5": 127.0,
+      "6": 140.0,
+      "7": 129.0,
+      "8": 143.0,
+      "9": 134.0,
+      "10": 97.0,
+      "11": 92.0,
+      "12": 146.0,
+      "13": 139.0,
+      "14": 138.0,
+      "15": 91.0,
+      "16": 122.0,
+      "17": 86.0,
+      "18": 145.0,
+      "19": 104.0
+    }
+  }
+
+
+""" Do you use Tinder?"""
+
+{
+    "answer": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "values": {
+      "0": 0,
+      "1": 1
+    }
+  }
+
+
+
+  """ How many matching swipes do you make?"""
+
+  """ sliding range from 0 - 2000, default set to 400"""
+
+
+
+  """ What Percentage of matches do you expect?"""
+  """ sliding range from 0-1, default set to 0.25"""
