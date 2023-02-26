@@ -1,8 +1,9 @@
-{ "title": {
+{ 
+  "title": {
   "text": "Total Percentage of Tinder Users"
 }, 
-  "data":[
-    {"No": 1732},
-    {"Yes": 164}
-  ]
+  "data":{
+    "No": 1732,
+    "Yes": 164
+  }
   }
