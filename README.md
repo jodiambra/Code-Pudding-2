@@ -6,6 +6,10 @@
 
 Tinder is a popular dating app that allows users to create a profile and swipe through potential matches based on their location and personal preferences. Users can indicate their interest in a match by swiping right, or they can swipe left to pass. If two users both swipe right on each other, they are considered a match and can communicate with each other through the app's messaging system. Tinder's algorithm also takes into account factors such as mutual friends and common interests to suggest potential matches. The app is known for its simple and user-friendly interface, and it is available on both iOS and Android devices.
 
+## Purpose
+
+We want to examine the difference between finding a relationship on Tinder, against finding a relationship not on Tinder. Given the data from a questionnaire answered by millennials on many university campuses, we will determine if they are looking for love in all the wrong places. Can you truly find love on Tinder, or is it just a shallow hookup app? Then, with the same questions from the questionnaire, can we predict your chances of finding a relationship on and off of Tinder. 
+
 ## Conclusions
 
 We conducted EDA on the tinder dataset and highlighted some trends. We found more relationships with those that used Tinder, compared to those that did not use Tinder. This occurrence was confirmed with hypothesis testing, which suggested the relationship occurrences were different among Tinder users and non users. 
@@ -15,3 +19,6 @@ We then created a machine learning model to predict the relationship status of a
 We tested our model with a dataset we created. The results of the model predict a relationship, with a 93.99% probability. 
 
 Contrary to popular belief that Tinder is merely a hookup app, with relationships found far and few in between, our dataset suggests the opposite. Among these universities, individuals tend to have better luck finding a relationship using tinder. 
+
+
+    Web app can be accessed from: 
