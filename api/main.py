@@ -56,13 +56,14 @@ async def get_predict(data: Candidate):
         data.percentage
     ]]
     relationship = model.predict(sample).tolist()[0]
-    probability = model.predict_proba(sample).tolist()[0] * 100
+    probability = model.predict_proba(sample).tolist()[0]
+    prob = probability[1]*100 
     return {
         "data": {
             'prediction': relationship,
-            'probability': probability,
+            'probability': prob,
             'interpretation': 'You will find a relationship.' if relationship == 1 else 'You will not find a relationship.',
-            'probability interpretation': 'probability of single and probability of relationship'
+            'probability interpretation': 'probability of relationship'
         }
     }
 
