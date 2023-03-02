@@ -1,0 +1,100 @@
+# Model Predictions 
+
+Respondent 1
+## What is your medium of usage?
+    University - 2
+
+## What university are you attending?
+    Meridiian, Idaho - 46
+
+## Do you use Tinder?
+    No - 0
+
+## How many matches have you made?
+    0
+
+## What is your match  percentage?
+    0
+
+        Results: Single - 0 , with a 4.39% probability of finding a relationship. 
+
+
+
+Respondent 2
+## What is your medium of usage?
+    Mobile - 1
+
+## What university are you attending?
+    Westport, CT - 144.0
+
+## Do you use Tinder?
+    Yes - 1
+
+## How many matches have you made?
+    600
+
+## What is your match  percentage?
+    0.30
+
+        Results: Relationship - 1 , with a 82.91% probability of finding a relationship. 
+
+
+
+Respondent 3
+## What is your medium of usage?
+    Web - 3
+
+## What university are you attending?
+    University of Delaware - 104.0
+
+## Do you use Tinder?
+    Yes - 1
+
+## How many matches have you made?
+    900
+
+## What is your match  percentage?
+    0.60
+
+        Results: Single - 0 , with a 0.66% probability of finding a relationship.
+
+
+
+
+Respondent 4
+## What is your medium of usage?
+    Web - 3
+
+## What university are you attending?
+    University of Tampa - 129.0
+
+## Do you use Tinder?
+    No - 0
+
+## How many matches have you made?
+    0
+
+## What is your match  percentage?
+    0
+
+        Results: Single - 0 , with a 0.30% probability of finding a relationship.
+
+
+
+Respondent 5
+## What is your medium of usage?
+    University - 2
+
+## What university are you attending?
+    Meridian, Idaho - 46.0
+
+## Do you use Tinder?
+    Yes - 1
+
+## How many matches have you made?
+    400
+
+## What is your match  percentage?
+    0.35
+
+        Results: Relationship - 1 , with a 98.8% probability of finding a relationship.
