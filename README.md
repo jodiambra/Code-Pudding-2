@@ -20,5 +20,7 @@ We tested our model with a dataset we created. The results of the model predict 
 
 Contrary to popular belief that Tinder is merely a hookup app, with relationships found far and few in between, our dataset suggests the opposite. Among these universities, individuals tend to have better luck finding a relationship using tinder. 
 
+![tinder screenshot](https://user-images.githubusercontent.com/115895428/222719055-a77d2645-ab8c-497b-a52d-b631ec725531.jpg)
 
-    Web app can be accessed from: 
+
+##### Web app can be accessed from: https://randypol.github.io/se_pudding_2023/#/dataSlide
