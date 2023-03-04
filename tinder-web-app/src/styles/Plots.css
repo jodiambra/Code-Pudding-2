@@ -1,0 +1,10 @@
+.plot {
+  width: 100%;
+}
+
+@media screen and (max-height: 960px) {
+    .plot {
+        height: 300px;
+      }
+      
+  }

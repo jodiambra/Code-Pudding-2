@@ -1,0 +1,104 @@
+.card {
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+
+  padding: 32px;
+  position: relative;
+  width: 400px;
+}
+
+.card__logo--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__tinder--logo {
+  width: 100px;
+}
+
+.card__logo--text {
+  font-size: 25px;
+  font-family: 'Noto Sans Bassa Vah', sans-serif;
+}
+
+.card__title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+
+.card__description {
+  font-size: 18px;
+  margin: 0 0 32px;
+  height: 160px;
+}
+
+.card__button--container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  padding-top: 10px;
+  margin-top: auto;
+}
+
+.card__button {
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: all 0.3s ease;
+}
+
+.card__button:hover {
+  transform: scale(1.05);
+}
+
+.card__button--prev {
+  border-color: #ffc107;
+  color: #ffc107;
+}
+
+.card__button--close {
+  border-color: #fd5068;
+  color: #fd5068;
+}
+
+.card__button--next {
+  border-color: #4caf50;
+  color: #4caf50;
+}
+
+/* Hover Effects */
+
+.card__button--prev:hover {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.card__button--close:hover {
+  background-color: #fd5068;
+  color: #fff;
+}
+
+.card__button--next:hover {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+@media screen and (max-height: 960px) {
+  .card__top--container {
+    overflow-y: scroll;
+  }
+}

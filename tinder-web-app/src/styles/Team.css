@@ -1,0 +1,95 @@
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.team__card {
+  margin-bottom: 20px;
+  width: 48%;
+  background-color: #fff;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.team__card:hover {
+  transform: scale(1.05);
+}
+
+.team__image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.team__name {
+  margin: 10px 10px 5px;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.team__role {
+  margin-left: 10px;
+  color: #777;
+}
+
+.team__social {
+  display: flex;
+  margin: 10px 10px;
+}
+
+.team__link {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.team__icon-linkedin {
+  width: 20px;
+  height: 20px;
+  fill: #0077b5;
+  transition: fill 0.3s ease-in-out;
+  margin-right: 5px;
+}
+.team__icon-github {
+  width: 20px;
+  height: 20px;
+  fill: #181717;
+  transition: fill 0.3s ease-in-out;
+  margin-right: 5px;
+}
+
+.team__icon-label {
+  font-size: 0.8rem;
+  margin-right: 5px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.team__link:hover .team__icon-linkedin {
+  fill: #005c9e;
+}
+.team__link:hover .team__icon-github {
+  fill: #8b0000;
+}
+
+.team__info {
+  margin: 5px 10px;
+  font-size: 0.9rem;
+  color: #777;
+}
+.team__info-label {
+  font-size: 0.9rem;
+  color: #444;
+}
+
+@media screen and (max-width: 500px) {
+  .team__card {
+    width: 100%;
+  }
+}

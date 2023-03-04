@@ -1,0 +1,67 @@
+.introduction {
+  max-width: 800px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.introduction__title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.introduction__paragraphs {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.introduction__authors {
+  font-style: italic;
+}
+
+.introduction__headings {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.introduction__paragraphs-graphs {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Slides Show In Main Paper*/
+/* The list of graphs */
+.slideshow__slides {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Individual slide container */
+.slideshow__slide {
+  cursor: pointer;
+  margin: 10px;
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.slideshow__slide:hover {
+  transform: scale(1.05);
+}
+
+/* Graphs Image */
+.slideshow__slide-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

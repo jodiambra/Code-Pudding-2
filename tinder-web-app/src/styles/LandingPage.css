@@ -1,0 +1,48 @@
+.landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('../images/background-data-white.gif') no-repeat center center
+    fixed;
+  background-size: cover;
+}
+
+.landing__containter {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 50px;
+  border-radius: 50px;
+}
+
+.landing__logo {
+  width: 50%;
+}
+
+.landing__heading {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.landing__button-enter {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  border: none;
+  background-color: #ff4d4d;
+  color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.landing__button-enter:hover {
+  background-color: #e60000;
+}
