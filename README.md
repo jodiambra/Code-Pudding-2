@@ -23,4 +23,4 @@ Contrary to popular belief that Tinder is merely a hookup app, with relationship
 ![tinder screenshot](https://user-images.githubusercontent.com/115895428/222719055-a77d2645-ab8c-497b-a52d-b631ec725531.jpg)
 
 
-##### Web app can be accessed from: https://randypol.github.io/se_pudding_2023/#/dataSlide
+##### Web app can be accessed from: [Tinder Webpage](https://randypol.github.io/se_pudding_2023/#/dataSlide)
